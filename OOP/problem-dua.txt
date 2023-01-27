@@ -1,0 +1,22 @@
+persegi :
+
+public class persegi {
+    double sisi ;
+
+    //constructor
+
+    public persegi(double sisi) {
+        this.sisi = sisi;
+    }
+
+    //rumus kelilingPersegi
+    public double hitungKelilingPersegi (){
+        return (4 *this.sisi);
+    }
+
+    //rumus luasPersegi
+    public double hitungLuasPersegi (){
+        double sisi = (this.sisi);
+        return  (this.sisi * this.sisi);
+    }
+}

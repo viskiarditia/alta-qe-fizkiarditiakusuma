@@ -1,0 +1,31 @@
+menentukan grade :
+
+import java.util.Scanner;
+
+public class main5 {
+    public static void main (String[]args){
+        //menentukan nilai nya itu masuk ke A B+ B C D dan invalid
+        // NILAI; A = 80 - 100
+        // B+ = 65 - 79
+        // B = 50 - 64
+        // C = 35 - 49
+        // D = 0 - 34
+        // invalid = selain itu
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Masukkan nilai = ");
+        int nilai = input.nextInt();
+
+        if (nilai >= 80 && nilai <= 100) {
+            System.out.println("A");
+        } else if (nilai >= 65 && nilai <= 79){
+            System.out.println("B+");
+        } else if (nilai >= 50 && nilai <= 64){
+            System.out.println("B");
+        } else if (nilai >= 35 && nilai <= 49) {
+            System.out.println("C");
+        } else if (nilai >= 0 && nilai <= 34) {
+            System.out.println("D");
+        } else System.out.println("invalid");
+    }
+}

@@ -1,0 +1,23 @@
+persegi panjang :
+
+public class persegiPanjang {
+    double panjang;
+    double lebar;
+
+    //constructor
+
+    public persegiPanjang(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+
+    // rumus luasPersegiPanjang
+    public double luasPersegipanjang(){
+        return (this.panjang * this.lebar );
+    }
+
+    // rumus kelilingPersegiPanjang
+    public double kelilingPersegiPanjang(){
+        return (2* this.panjang) + (2* this.lebar);
+    }
+}

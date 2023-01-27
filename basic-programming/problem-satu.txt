@@ -1,0 +1,24 @@
+menghitung luas segitiga :
+
+import java.util.Scanner;
+
+public class main4 {
+    public static void main (String[] args){
+        Scanner input=new Scanner(System.in);
+
+        int alas, tinggi, luas;
+
+        System.out.println("MENGHITUNG LUAS LUAS SEGITIGA: ");
+
+        System.out.print(" alas    : ");
+        alas = 20;
+
+        System.out.print(" tinggi : ");
+        tinggi = 25;
+
+        luas= alas * tinggi /2;
+
+        System.out.println("Luas Segitiga: "+luas);
+
+    }
+}

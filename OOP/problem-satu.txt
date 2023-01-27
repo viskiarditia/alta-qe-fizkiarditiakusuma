@@ -1,0 +1,30 @@
+main :
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println(" selamat datang di tugas OOP ");
+        System.out.println(" ");
+        System.out.println(" Fizki Arditia Kusuma ");
+        System.out.println(" QE Batch 9 ");
+        System.out.println(" ----menghitung segitiga---- ");
+        segitiga segitiga = new segitiga(3,4 );
+        System.out.println(" keliling Segitiga adalah           : " + 
+segitiga.hitungKelilingSegitiga());
+        System.out.println(" luas Segitiga adalah               : " + 
+segitiga.hitungLuasSegitiga());
+        System.out.println(" ");
+        System.out.println(" ----menghitung persegi---- ");
+        persegi persegi = new persegi(4);
+        System.out.println(" keliling persegi adalah            : " + 
+persegi.hitungKelilingPersegi());
+        System.out.println(" luas persegi adalah                : " + 
+persegi.hitungLuasPersegi());
+        System.out.println(" ");
+        persegiPanjang persegiPanjang = new persegiPanjang(7, 8);
+        System.out.println(" keliling persegi panjang adalah    : "+ 
+persegiPanjang.kelilingPersegiPanjang());
+        System.out.println(" luas persegi panjang adalah        : "+ 
+persegiPanjang.luasPersegipanjang());
+    }
+}
